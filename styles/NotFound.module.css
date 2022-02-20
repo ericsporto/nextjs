@@ -1,0 +1,20 @@
+.notfound {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: red;
+    background-color: rgb(175, 124, 124);
+    min-height: 80vh;
+}
+
+.notfound p {
+    color: rgb(190, 5, 5)
+}
+
+.notfound a {
+    color: black;
+    font-weight: 800;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.322);
+    margin: 0 100px;
+}
