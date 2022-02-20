@@ -1,0 +1,23 @@
+.navbar {
+    display: flex;
+    background-color: #000;
+    padding: 20px 10px;
+
+}
+
+.navbar li {
+    list-style: none;
+}
+
+.navbar a {
+    text-decoration: none;
+    margin: 0 10px;
+    color: white;
+    transition: .3s;
+    
+}
+
+.navbar a:hover {
+    color: yellow
+    
+}

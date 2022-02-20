@@ -1,0 +1,7 @@
+.main {
+    background-color: #999;
+    padding: 50px;
+    text-align: center;
+    border: solid 5px #fff;
+    min-height: 85vh;
+}

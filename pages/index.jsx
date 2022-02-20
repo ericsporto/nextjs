@@ -1,12 +1,25 @@
-import Navbar from '../components/Navbar'
-import styles from '../styles/Home.module.css'
+import Image from "next/image";
+import Head from "next/head";
+import style from '../styles/Home.module.css'
 
 
 export default function Home() {
   return (
     <div>
-      <Navbar />
-      <h1>Olaaa</h1>
+      <Head>
+        <title>First Page</title>
+        <meta name="keywords" content="first" />
+        <meta name="description" content="that is the first page" />
+        
+
+      </Head>
+      
+      <h1 className={style.title}>Next Js Project</h1>
+      <Image 
+      src="/images/beach.jpg" 
+      width="400px" 
+      height="400px" 
+      alt="imagem de uma praia" />
     </div>
   )
 }

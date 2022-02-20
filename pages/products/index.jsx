@@ -1,9 +1,9 @@
 import Link from "next/link"
-import Navbar from "../../components/Navbar"
+
 export default function Products () {
     return (
         <>
-            <Navbar />
+            
             <ul>
                 <li>Tênis</li>
                 <li>Desodorante</li>
